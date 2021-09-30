@@ -13,6 +13,7 @@ public abstract class ViewModel : MonoBehaviour
     public abstract object Value { get;}
 }
 
+//TODO need to make a list or dictionary of values for observables
 public abstract class ViewModel<T> : ViewModel
 {
     private Observable<T> _model = new Observable<T>();

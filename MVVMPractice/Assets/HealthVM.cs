@@ -1,7 +1,15 @@
-public class HealthVM : ViewModel<PlayerHealth>
+public class HealthVM : ViewModel<int>
 {
-    public HealthVM(object value)
+    //Obs Health
+    //Obs MaxHealth
+    
+    public HealthVM()
     {
+        Model = 5;
+        //{
+            //Health = 5,
+          //  MaxHealth = 10
+        //};
     }
     
 }

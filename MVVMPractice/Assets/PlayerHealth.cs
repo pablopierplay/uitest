@@ -3,6 +3,6 @@ using System.Collections.Generic;
 
 public struct PlayerHealth
 {
-    private int Health;
-    private int MaxHealth;
+    public int Health;
+    public int MaxHealth;
 }
